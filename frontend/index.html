@@ -1,0 +1,387 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0f172a">
+  <title>Simulador ICFES Saber 11</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    .user-session-controls {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .user-badge {
+      background: #334155;
+      color: #fff;
+      border: 1px solid #475569;
+      border-radius: 25px;
+      padding: 8px 14px;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .btn-sm {
+      padding: 8px 12px;
+      font-size: 13px;
+    }
+
+    .btn-outline {
+      cursor: pointer;
+    }
+
+    @media (max-width: 480px) {
+      .user-session-controls {
+        gap: 5px;
+      }
+
+      .user-badge {
+        max-width: 120px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- BARRA SUPERIOR -->
+  <header class="navbar">
+    <div class="navbar-container">
+      <a class="brand" href="#" aria-label="Simulador Saber 11, inicio">
+        <span class="logo-icon" aria-hidden="true">📝</span>
+        <span class="logo-text">SIMULADOR <strong>SABER 11</strong></span>
+      </a>
+
+      <div class="user-session-controls">
+        <div id="badge-usuario" class="user-badge">Invitado</div>
+
+        <button
+          id="btn-cerrar-sesion"
+          type="button"
+          class="btn btn-outline btn-sm">
+          Cerrar sesión
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-layout">
+    <div id="alerta-app" class="app-alert" role="alert" aria-live="polite" hidden></div>
+
+    <!-- BARRA DE PROGRESO -->
+    <div
+      id="bar-progreso-container"
+      class="progress-bar-wrapper"
+      style="display:none"
+      role="progressbar"
+      aria-label="Progreso de la prueba"
+      aria-valuemin="0"
+      aria-valuemax="100"
+      aria-valuenow="0">
+      <div id="bar-progreso-fill" class="progress-bar-fill"></div>
+    </div>
+
+    <!-- REGISTRO E INICIO DE SESIÓN -->
+    <section id="vista-registro" class="card-box centered-card animate-fade">
+      <div class="card-header-styled">
+        <span class="badge-tag tag-yellow">Simulador Saber 11</span>
+        <h1 id="titulo-acceso">Crea tu cuenta</h1>
+        <p id="texto-acceso">
+          Regístrate para guardar tus respuestas y continuar tu simulacro cuando vuelvas.
+        </p>
+      </div>
+
+      <div class="form-styled">
+        <!-- CAMPOS DE REGISTRO -->
+        <div id="campos-registro">
+          <div class="input-field">
+            <label for="nombre">Nombre completo <span aria-hidden="true">*</span></label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              autocomplete="name"
+              maxlength="100"
+              placeholder="Tu nombre completo">
+          </div>
+
+          <div class="input-field">
+            <label for="colegio">
+              Institución educativa <span class="optional">(opcional)</span>
+            </label>
+            <input
+              type="text"
+              id="colegio"
+              name="colegio"
+              autocomplete="organization"
+              maxlength="150"
+              placeholder="Nombre de tu colegio">
+          </div>
+        </div>
+
+        <!-- FORMULARIO DE REGISTRO -->
+        <form id="form-registro">
+          <div class="input-field">
+            <label for="correo">Correo electrónico <span aria-hidden="true">*</span></label>
+            <input
+              type="email"
+              id="correo"
+              name="correo"
+              autocomplete="email"
+              maxlength="100"
+              required
+              placeholder="correo@ejemplo.com">
+          </div>
+
+          <div class="input-field">
+            <label for="password">Contraseña <span aria-hidden="true">*</span></label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              autocomplete="new-password"
+              minlength="8"
+              maxlength="128"
+              required
+              placeholder="Mínimo 8 caracteres">
+          </div>
+
+          <button id="btn-comenzar" type="submit" class="btn btn-action btn-full">
+            Crear cuenta y comenzar
+          </button>
+        </form>
+
+        <!-- FORMULARIO DE INICIO DE SESIÓN -->
+        <form id="form-login" style="display:none">
+          <div class="input-field">
+            <label for="correo-login">Correo electrónico <span aria-hidden="true">*</span></label>
+            <input
+              type="email"
+              id="correo-login"
+              name="correo-login"
+              autocomplete="email"
+              maxlength="100"
+              required
+              placeholder="correo@ejemplo.com">
+          </div>
+
+          <div class="input-field">
+            <label for="password-login">Contraseña <span aria-hidden="true">*</span></label>
+            <input
+              type="password"
+              id="password-login"
+              name="password-login"
+              autocomplete="current-password"
+              maxlength="128"
+              required
+              placeholder="Tu contraseña">
+          </div>
+
+          <button id="btn-login" type="submit" class="btn btn-action btn-full">
+            Iniciar sesión
+          </button>
+        </form>
+
+        <!-- CAMBIAR ENTRE REGISTRO E INICIO DE SESIÓN -->
+        <div style="text-align:center; margin-top:20px">
+          <p id="texto-cambio-acceso">¿Ya tienes una cuenta?</p>
+          <button id="btn-cambiar-acceso" type="button" class="btn btn-outline">
+            Iniciar sesión
+          </button>
+        </div>
+
+        <p class="form-note">
+          Tus respuestas se guardarán en tu cuenta para que puedas recuperarlas.
+        </p>
+      </div>
+    </section>
+
+    <!-- PANTALLA DE CARGA -->
+    <section
+      id="vista-cargando"
+      class="card-box loading-card"
+      style="display:none"
+      aria-live="polite">
+      <div class="spinner" aria-hidden="true"></div>
+      <h2>Preparando tu simulacro…</h2>
+      <p>Estamos cargando las preguntas y recuperando tu progreso.</p>
+    </section>
+
+    <!-- ÁREA PRINCIPAL DEL SIMULACRO -->
+    <div id="area-simulacion" class="simulation-grid" style="display:none">
+      <div class="content-column">
+
+        <!-- LECTURA O TEXTO DE CONTEXTO -->
+        <section id="vista-lectura" class="card-box animate-fade" style="display:none">
+          <div class="card-top-bar">
+            <span id="lectura-materia-badge" class="badge-tag tag-blue">
+              Texto de contexto
+            </span>
+            <span class="icfes-notice">Lee antes de responder</span>
+          </div>
+
+          <div class="reading-container">
+            <h2 id="titulo-rango-preguntas" class="reading-title">
+              RESPONDE LAS PREGUNTAS DE ACUERDO CON LA SIGUIENTE INFORMACIÓN
+            </h2>
+            <div id="contenido-lectura" class="reading-body"></div>
+          </div>
+
+          <div class="card-footer">
+            <button id="btn-ir-preguntas" type="button" class="btn btn-action">
+              Ir a las preguntas <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </section>
+
+        <!-- PANTALLA DE PREGUNTAS -->
+        <section id="vista-quiz" class="card-box animate-fade" style="display:none">
+          <div class="card-top-bar question-topbar">
+            <span id="materia-badge" class="badge-tag tag-blue">Área</span>
+
+            <div class="top-actions">
+              <button
+                id="btn-ver-lectura"
+                type="button"
+                class="btn btn-outline btn-sm"
+                style="display:none">
+                📖 Ver contexto
+              </button>
+
+              <span id="contador-preguntas" class="counter-tag">Pregunta 1</span>
+            </div>
+          </div>
+
+          <div class="question-body">
+            <p id="estado-respuesta" class="question-hint">
+              Selecciona una opción.
+            </p>
+
+            <h2 id="texto-enunciado" class="question-title">
+              Cargando pregunta…
+            </h2>
+
+            <div id="opciones-container" class="options-stack"></div>
+          </div>
+
+          <div class="card-footer flex-footer">
+            <button id="btn-anterior" type="button" class="btn btn-outline">
+              ← Anterior
+            </button>
+
+            <button id="btn-siguiente" type="button" class="btn btn-action">
+              Siguiente pregunta →
+            </button>
+          </div>
+        </section>
+
+        <!-- RESULTADOS -->
+        <section id="vista-resultados" class="card-box animate-fade" style="display:none">
+          <div class="results-header">
+            <span class="badge-tag tag-green">Simulación finalizada</span>
+            <h1>Tu resultado</h1>
+            <p>
+              Este resultado corresponde a las preguntas incluidas en este simulador;
+              no es un puntaje oficial del ICFES.
+            </p>
+          </div>
+
+          <div class="results-card">
+            <div id="porcentaje-puntaje" class="score-display">0%</div>
+            <p id="resumen-texto" class="score-detail"></p>
+
+            <div class="result-stats">
+              <div>
+                <span id="aciertos-resultados" class="stat-number">0</span>
+                <span class="stat-label">Respuestas correctas</span>
+              </div>
+
+              <div>
+                <span id="total-resultados" class="stat-number">0</span>
+                <span class="stat-label">Preguntas totales</span>
+              </div>
+
+              <div>
+                <span id="sin-responder-resultados" class="stat-number">0</span>
+                <span class="stat-label">Sin responder</span>
+              </div>
+            </div>
+          </div>
+
+          <section class="subject-results">
+            <h2>Desempeño por área</h2>
+            <div id="resumen-areas" class="subject-results-list"></div>
+          </section>
+
+          <div class="results-actions">
+            <button id="btn-reiniciar" type="button" class="btn btn-action">
+              Realizar otra prueba
+            </button>
+          </div>
+        </section>
+      </div>
+
+      <!-- MAPA DE NAVEGACIÓN DE PREGUNTAS -->
+      <aside id="columna-mapa" class="sidebar-column">
+        <div class="card-box sidebar-box">
+          <div class="sidebar-heading">
+            <h2 class="sidebar-title">Mapa de preguntas</h2>
+            <p class="sidebar-subtitle">Selecciona un número para navegar.</p>
+          </div>
+
+          <div id="resumen-progreso" class="mini-progress">
+            0 de 0 respondidas
+          </div>
+
+          <div
+            id="grid-mapa-preguntas"
+            class="questions-grid-map"
+            aria-label="Navegación de preguntas">
+          </div>
+
+          <div class="legend-box">
+            <div class="legend-item">
+              <span class="box-sample current"></span> Actual
+            </div>
+
+            <div class="legend-item">
+              <span class="box-sample answered"></span> Respondida
+            </div>
+
+            <div class="legend-item">
+              <span class="box-sample pending"></span> Pendiente
+            </div>
+          </div>
+
+          <button
+            id="btn-finalizar"
+            type="button"
+            class="btn btn-action btn-full finish-btn">
+            Finalizar prueba
+          </button>
+
+          <p class="sidebar-tip">
+            Puedes volver a cualquier pregunta antes de enviar tus respuestas.
+          </p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="page-footer">
+    Simulador de práctica Saber 11 · Herramienta educativa
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,482 @@
+﻿[
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nComo argumento a favor del vegetarianismo, una persona afirma que consumir carne es nocivo para los humanos porque el animal, del cual se obtiene esta, sufre en el proceso, y esto produce energías negativas que se transmiten al consumidor y perjudican su salud. Otra persona, igualmente a favor del vegetarianismo, sostiene que el consumo de productos de origen animal es un acto amoral, en la medida en que resulta del abuso e insensibilidad del ser humano ante los demás seres vivos.",
+    "enunciado": "1. ¿Cuál de las siguientes afirmaciones sobre la relación entre las opiniones presentadas NO es correcta?",
+    "opcion_a": "A. Son similares, porque ambas van en contra del consumo de carne.",
+    "opcion_b": "B. Son complementarias, porque ambas promueven el vegetarianismo cuando argumentan la obligación de proteger a los animales.",
+    "opcion_c": "C. Son diferentes, porque la primera aboga por la salud del ser humano y la segunda, por el bienestar de los animales.",
+    "opcion_d": "D. Son disímiles, porque la primera se centra en cómo el animal afecta al ser humano y la segunda, en cómo el ser humano afecta al animal.",
+    "respuesta_correcta": "B"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nLos habitantes de un barrio de clase media se oponen a que, en este, se construyan viviendas de interés social. Afirman que las personas de escasos recursos económicos que se beneficiarían con estas viviendas representarían un peligro para la seguridad de los habitantes actuales del barrio. Señalan que las zonas más pobres de la ciudad son también las más inseguras, y argumentan que esto prueba que una persona de escasos recursos tiene una probabilidad más alta de ser un delincuente que una persona acomodada.",
+    "enunciado": "2. De los siguientes enunciados, ¿cuál contiene un argumento válido en contra de las afirmaciones de los habitantes del barrio de clase media?",
+    "opcion_a": "A. Quienes ejercen la delincuencia en una zona pobre de la ciudad pueden no ser habitantes de esa zona.",
+    "opcion_b": "B. Entre los delincuentes nunca hay personas de escasos recursos, pues todos son adinerados precisamente gracias a sus actividades delictivas.",
+    "opcion_c": "C. Los delincuentes que habitan en las zonas más pobres de la ciudad dejarían de violar la ley, si contaran con mejores condiciones de vida.",
+    "opcion_d": "D. Hay casos en que la pobreza y la falta de oportunidades llevan a una persona, en un momento de desesperación, a cometer un delito.",
+    "respuesta_correcta": "A"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nUn padre de familia no está de acuerdo con la participación de profesores homosexuales en la educación de sus hijos. Al respecto, el rector del colegio argumenta: \"Las personas con inclinaciones homosexuales, como todas las personas, merecen ser amadas. Además, en todos los países hay población homosexual, y las preferencias sexuales son el resultado de una compleja interacción de la biología con el medio ambiente. Yo creo que los homosexuales pueden enseñar, siempre y cuando controlen su comportamiento en clase y no afecten la orientación sexual de los estudiantes\".",
+    "enunciado": "3. ¿Cuál de los siguientes enunciados del rector contiene un prejuicio cuestionable?",
+    "opcion_a": "A. En todos los países hay población homosexual.",
+    "opcion_b": "B. Las personas con inclinaciones homosexuales, como todas las personas, merecen ser amadas.",
+    "opcion_c": "C. Las preferencias sexuales son el resultado de una compleja interacción de la biología con el medio ambiente.",
+    "opcion_d": "D. Los homosexuales pueden enseñar, siempre y cuando controlen su comportamiento en clase y no afecten la orientación sexual de los estudiantes.",
+    "respuesta_correcta": "D"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nLos siguientes magnicidios tuvieron incidencia en la historia política de Colombia durante el siglo XX:\n1. Asesinato de Luis Carlos Galán.\n2. Asesinato de Jorge Eliécer Gaitán.\n3. Asesinato de Rafael Uribe Uribe.\n4. Asesinato de Álvaro Gómez Hurtado.",
+    "enunciado": "4. ¿Cuál es el orden cronológico de estos hechos?",
+    "opcion_a": "A. 2, 3, 1 y 4.",
+    "opcion_b": "B. 3, 2, 1 y 4.",
+    "opcion_c": "C. 3, 1, 2 y 4.",
+    "opcion_d": "D. 4, 3, 2 y 1.",
+    "respuesta_correcta": "B"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nEn Colombia se debate sobre la posibilidad de legalizar el tráfico y consumo de drogas ilícitas, para contrarrestar los efectos económicos y sociales del narcotráfico. Algunos sectores sociales plantean que esta alternativa es indeseable y proponen, en cambio, fortalecer los procesos de sensibilización entre los consumidores sobre los riesgos de salud asociados al consumo de drogas. En contraste, otros sectores sociales proponen endurecer las penas para los productores y expendedores de drogas, así como para aquellos consumidores que porten más de la dosis legalmente permitida.",
+    "enunciado": "5. ¿Son similares las dos posiciones frente a la legalización de las drogas?",
+    "opcion_a": "A. No, porque una está a favor de la legalización y la otra a favor del endurecimiento de las sanciones legales.",
+    "opcion_b": "B. Sí, porque ambas consideran que la regulación legal del consumo tiene un efecto directo sobre el narcotráfico.",
+    "opcion_c": "C. No, porque una plantea que la lucha contra el narcotráfico debe ser por la vía de la represión y la otra por la vía de la prevención del consumo.",
+    "opcion_d": "D. Sí, porque ambas están en contra de la legalización y se enfocan en la protección de los consumidores de drogas.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nLa asamblea de propietarios de un edificio de la ciudad estudia la posibilidad de ampliar el horario para las reuniones privadas que se realizan en el salón comunal. Los propietarios de los pisos altos están de acuerdo en que se amplíe el horario hasta la 1:00 a.m. y mencionan que es la hora ideal para finalizar las reuniones; los propietarios del primer piso (lugar donde se encuentra el salón comunal) están en desacuerdo con el horario, ya que son ellos quienes se afectan por el ruido ocasionado por este tipo de reuniones a avanzadas horas de la noche. Después de que los propietarios exponen sus intereses, se realiza una votación y se decide que se ampliará el uso del salón hasta la medianoche.",
+    "enunciado": "6. ¿Esta solución se ajusta a los intereses de todos los vecinos?",
+    "opcion_a": "A. No, porque los habitantes de los pisos más altos no pueden aprovechar las fiestas que se hagan en el salón comunal.",
+    "opcion_b": "B. Sí, porque debido a que la propuesta se aprobó todos los vecinos están llamados a tener los mismos intereses.",
+    "opcion_c": "C. No, porque el ruido de las fiestas afecta más a los propietarios del primer piso cercanos al salón comunal.",
+    "opcion_d": "D. Sí, porque todos los propietarios tuvieron derecho a exponer sus ideas y a votar según sus intereses.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nSe ha generado un conflicto entre una empresa constructora y unas organizaciones ambientalistas en torno al desarrollo de un proyecto de apartamentos sobre un humedal. Por un lado, los ambientalistas afirman que cualquier construcción pone en riesgo todo el ecosistema del humedal. La constructora, por su parte, argumenta que el humedal no se afectará y que, por el contrario, el proyecto busca integrar el medio ambiente a sus zonas comunes.\nPara resolver el conflicto entre la constructora y los ambientalistas, se plantea que la constructora modifique sus planos para reducir el impacto sobre el humedal y salvar así algunos animales y árboles.",
+    "enunciado": "7. ¿Cómo se ajusta esta solución a los intereses de la constructora y de los ambientalistas?",
+    "opcion_a": "A. La solución beneficia a ambas partes, pues busca reducir gradualmente el daño ambiental y garantizar el negocio de la constructora.",
+    "opcion_b": "B. La solución beneficia solamente a una de las partes en detrimento del medio ambiente y del ecosistema de humedal.",
+    "opcion_c": "C. La solución beneficia a los ambientalistas, pues defiende sus intereses, y perjudica el negocio de la constructora.",
+    "opcion_d": "D. La solución no beneficia a ninguna de las partes, porque el humedal será destruido y la constructora no podrá realizar su proyecto de construcción de apartamentos.",
+    "respuesta_correcta": "B"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nMecanismos de reforma a la Constitución Política de Colombia.",
+    "enunciado": "8. ¿Cuál de los siguientes mecanismos puede ser usado para modificar la Constitución Política de Colombia?",
+    "opcion_a": "A. Una consulta popular.",
+    "opcion_b": "B. Un plebiscito.",
+    "opcion_c": "C. Un referendo.",
+    "opcion_d": "D. Un cabildo abierto.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nUn estudio realizado por la Organización de las Naciones Unidas (ONU) sostiene que América Latina es la región más urbanizada del mundo. Aunque esto aumenta las oportunidades laborales y mejora las condiciones de vida de muchas personas, su costo económico, social y ambiental es demasiado alto, ya que han proliferado –y seguirán aumentando– barrios pobres y desiguales que expanden el casco urbano e invaden zonas rurales. Para atender este problema, el estudio plantea tres propuestas. La primera es densificar las ciudades; así, en lugar de expandirse hacia zonas rurales, donde se producen los alimentos, se aumenta la vivienda vertical (edificios). La segunda solución es acelerar las reformas urbanas para legalizar los barrios de invasión, ofreciéndoles a quienes habitan allí acceso a servicios públicos y títulos de propiedad. La tercera alternativa es aumentar la oferta de transporte público, lo cual ayudaría a facilitar la movilidad desde la periferia hacia los centros urbanos.\n\n---Tomado y adaptado de: Redacción BBC Mundo, \"América Latina más urbanizada y más desigual\", en BBC Mundo, agosto de 2012.",
+    "enunciado": "9. ¿Qué tipo de relación se puede establecer entre las propuestas de solución al problema de la urbanización en América Latina?",
+    "opcion_a": "A. Complementariedad, pues todas las soluciones priorizan el desarrollo económico de los centros urbanos.",
+    "opcion_b": "B. Compatibilidad, pues todas las soluciones se enfocan hacia la recuperación de las zonas de producción rural.",
+    "opcion_c": "C. Complementariedad, pues todas las soluciones se enfocan hacia la mitigación de los costos sociales y económicos de la expansión urbana.",
+    "opcion_d": "D. Compatibilidad, pues todas las soluciones priorizan el mejoramiento de la calidad de vida de los habitantes provenientes de zonas rurales.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nUn presidente de Colombia está finalizando su periodo presidencial, y debido a la alta popularidad de la que goza decide proponer la inclusión de la reelección presidencial indefinida dentro de la Constitución. Para tal fin, quiere convocar un referendo.",
+    "enunciado": "10. ¿El presidente puede hacer esto?",
+    "opcion_a": "A. Sí, porque los referendos permiten reformar la Constitución.",
+    "opcion_b": "B. No, porque la Constitución no puede reformarla el Ejecutivo; solo a través de una Asamblea Constituyente.",
+    "opcion_c": "C. Sí, porque el presidente puede modificar la Constitución por su cuenta, sin acudir al poder legislativo.",
+    "opcion_d": "D. No, porque los referendos no permiten reformar la Constitución.",
+    "respuesta_correcta": "A"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nUn ciudadano se encontraba inconforme con el actual sistema de salud en Colombia y quería promover una reforma a la Ley 100 de 1993 (Ley de Seguridad Social) para introducir mejoras en esta materia. Para ello, presentó una propuesta ante el Congreso de la República a través de una \"iniciativa popular\", a fin de modificar varios artículos de la mencionada ley.",
+    "enunciado": "11. ¿Es legalmente viable el procedimiento realizado por el ciudadano?",
+    "opcion_a": "A. No, porque la Constitución Política de Colombia establece que un ciudadano no tiene la facultad por sí solo para introducir propuestas de reforma a las leyes colombianas.",
+    "opcion_b": "B. Sí, porque la Constitución Política de Colombia establece que se requiere un ciudadano para proponer una iniciativa popular que reforme una ley.",
+    "opcion_c": "C. No, porque la Constitución Política de Colombia establece que se requiere el 5% del censo electoral para presentar una iniciativa popular que reforme una ley.",
+    "opcion_d": "D. Sí, porque la Constitución Política de Colombia establece que se requiere el 5% del apoyo de los congresistas para que la iniciativa popular se apruebe.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nEl alcalde de un municipio, su abogado asesor y el que es considerado el mayor contratista de la región compraron, por $244 millones, 129.881 m² de tierra en dos veredas de ese municipio. Gracias a unos $4.700 millones de recursos nacionales y municipales que el mandatario destinó a rieles, pavimentos e iluminación de vías, el precio de ese pedazo de tierra comprado puede superar hoy los $12.000 millones.\n\nLa situación ha sido conocida por diferentes personas quienes denunciaron que después de comprar esas propiedades, el alcalde incluyó dentro del Plan Básico de Ordenamiento Territorial (PBOT) del municipio, inversiones en vías e iluminación que no estaban en el Plan de Desarrollo que fue presentado al inicio del mandato, pero que sí favorecían la valorización de esos predios rurales. Consultado sobre esa denuncia, el alcalde reconoció que los beneficios no son solo para él y sus allegados, sino para toda la comunidad.\n\n---Tomado y adaptado de: www.elcolombiano.com.",
+    "enunciado": "12. De acuerdo con el texto anterior, ¿cuál de las siguientes afirmaciones explica las denuncias contra el alcalde?",
+    "opcion_a": "A. Los denunciantes no obtuvieron beneficio de las obras desarrolladas en el PBOT.",
+    "opcion_b": "B. Los denunciantes creen que el alcalde no ha hecho obras que beneficien al municipio.",
+    "opcion_c": "C. Los denunciantes tienen evidencias para afirmar que el alcalde abusó de su poder.",
+    "opcion_d": "D. Los denunciantes no quieren que el alcalde invierta en las zonas rurales del municipio.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nEl estado de excepción es una medida temporal consignada en la Constitución Política de Colombia, a la cual el presidente puede acudir cuando algún hecho amenaza la estabilidad del Estado. En caso de grave perturbación del orden público, el presidente tendrá la facultad de, por ejemplo, restringir la celebración de reuniones y manifestaciones públicas; ordenar la aprehensión preventiva de personas; modificar el presupuesto; aumentar y reducir penas; modificar el procedimiento penal y decretar leyes para atender el problema, las cuales serán evaluadas por la Corte Constitucional.",
+    "enunciado": "13. A partir de la anterior definición, ¿es posible que durante el estado de excepción se altere la distribución del poder público?",
+    "opcion_a": "A. Sí, porque es imposible modificar el presupuesto del país, ya que los recursos públicos se adjudican previamente.",
+    "opcion_b": "B. No, porque la Rama Ejecutiva debe ser la única encargada de restringir las manifestaciones públicas y los desórdenes causados por estas.",
+    "opcion_c": "C. Sí, porque la Rama Judicial debe ser la única encargada de ordenar el arresto de personas por medio de una orden judicial.",
+    "opcion_d": "D. Sí, porque el presidente podría proponer leyes cuando, de manera ordinaria, la Rama Legislativa es la única que puede hacer esto.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nEn Colombia, las ramas del poder público pueden ejercer control político entre sí para garantizar el equilibrio de poderes y evitar abusos. Una de estas ramas cuenta con dos mecanismos: la citación a un debate de control político y la moción de censura.\n\nLa citación a un debate de control político permite indagar sobre las acciones u omisiones de los funcionarios del Estado, así como obtener información relevante de su gestión y del cumplimiento de sus labores. Por otro lado, la moción de censura es un mecanismo a través del cual se reprocha la actuación de uno o varios ministros, dando lugar a la separación de su cargo.\n\n---Tomado y adaptado de: www.congresovisible.org.",
+    "enunciado": "14. De acuerdo con la Constitución Política de Colombia, ¿cuál de las ramas del poder puede ejercer control político a través de citaciones y mociones de censura?",
+    "opcion_a": "A. La Rama Electoral.",
+    "opcion_b": "B. La Rama Ejecutiva.",
+    "opcion_c": "C. La Rama Judicial.",
+    "opcion_d": "D. La Rama Legislativa.",
+    "respuesta_correcta": "D"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nEn la Constitución Política de Colombia se establece que los derechos de los menores de edad están por encima de los de otros particulares. Por lo anterior, si un menor de catorce años comete un delito no puede ser enviado a prisión y debe ser juzgado según un código penal diferente del ordinario. Un presidente de turno considera que, debido a este trato especial que se da en el juzgamiento de los menores, la delincuencia juvenil ha ido incrementándose; por ello, decide convocar a la ciudadanía para conocer si esta apoyaría que se anule la norma constitucional que pone los derechos de los menores por encima de los del resto de la población.",
+    "enunciado": "15. De acuerdo con los mecanismos de participación directa que contempla la Constitución, ¿cuál de los siguientes es el adecuado para que el presidente pueda adelantar su iniciativa?",
+    "opcion_a": "A. El plebiscito.",
+    "opcion_b": "B. El referendo.",
+    "opcion_c": "C. La consulta popular.",
+    "opcion_d": "D. El cabildo abierto.",
+    "respuesta_correcta": "B"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nConsidere el siguiente fragmento:\n«Con los jefes liberales que en la tarde de la sublevación y el caos habían ido a visitarlo en Palacio bajo las balas y entre los incendios, el presidente Ospina improvisó nuevamente un gobierno de Unidad Nacional, mientras Laureano Gómez, el jefe de su partido, que en vano había pedido el traspaso del poder a una Junta Militar, se iba indignado del país (a la España de Franco). En la Bogotá medio quemada restablecieron el orden las tropas del ejército venidas de Boyacá, pero en provincia los que fueron llamados \"nueveabrileños\" empezaron a levantar la autodefensa liberal vaticinada por Gaitán».\n\n---Tomado y adaptado de la Biblioteca Nacional de Colombia.",
+    "enunciado": "16. ¿Qué periodo de la historia política colombiana se representa en este fragmento?",
+    "opcion_a": "A. La Violencia entre 1948 y 1953.",
+    "opcion_b": "B. El Frente Nacional entre 1958 y 1974.",
+    "opcion_c": "C. La Patria Boba entre 1810 y 1815.",
+    "opcion_d": "D. El gobierno de Rojas Pinilla entre 1954 y 1958.",
+    "respuesta_correcta": "A"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nConsidere atentamente el siguiente fragmento:\n«Es posible y conveniente para la nación y para el conservatismo buscar un entendimiento claro y firme con el Partido Liberal sobre la única base que éste somete a su consideración y a la discusión de todos los colombianos: la de que se regrese a la normalidad institucional mediante un acuerdo de los dos partidos tradicionales, que agrupan a la casi totalidad de colombianos en sus filas, por el cual se haga imposible que el gobierno civil y nacional que haya de suceder al de las Fuerzas Armadas se convierta en una hegemonía de partido, y recaiga la nación en los peligros y las tragedias anteriores».\n\n---Tomado de archivos del conflicto político en Colombia.",
+    "enunciado": "17. De acuerdo con el texto anterior, ¿cuál de las siguientes razones explicaría que este fragmento pertenece al periodo del Frente Nacional?",
+    "opcion_a": "A. El autor propone un acuerdo entre los partidos tradicionales como alternativa política ante la amenaza del fascismo, la dictadura militar y los totalitarismos.",
+    "opcion_b": "B. Da cuenta de la voluntad de paz y conciliación de los colombianos en el periodo de la dictadura de las Fuerzas Armadas encabezadas por el general Rojas Pinilla.",
+    "opcion_c": "C. Da cuenta del acuerdo realizado por los partidos tradicionales como salida a la crisis social producida por la violencia y los sectarismos bipartidistas de la década de los años 1950.",
+    "opcion_d": "D. El autor advierte de los peligros inherentes a un modelo democrático electoral polarizado por dos partidos políticos tradicionales, antagónicos y excluyentes.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nLas revoluciones sociales son transformaciones rápidas y fundamentales de la situación de una sociedad y de sus estructuras de clase; se acompañan de las revueltas y se basan en dos coincidencias: cambio estructural por levantamiento de clases y posibilidad de transformación política y social. Entre las revoluciones más sobresalientes están: la Revolución mexicana, la Revolución cubana, la Revolución nicaragüense (sandinista) y la Revolución rusa.",
+    "enunciado": "18. ¿Cuál es el orden cronológico (del más antiguo al más reciente) de las revoluciones mencionadas?",
+    "opcion_a": "A. Revolución nicaragüense, Revolución rusa, Revolución mexicana, Revolución cubana.",
+    "opcion_b": "B. Revolución mexicana, Revolución rusa, Revolución cubana, Revolución nicaragüense.",
+    "opcion_c": "C. Revolución rusa, Revolución cubana, Revolución mexicana, Revolución nicaragüense.",
+    "opcion_d": "D. Revolución cubana, Revolución rusa, Revolución mexicana, Revolución nicaragüense.",
+    "respuesta_correcta": "B"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nEn el contexto de la crisis económica experimentada por el país a finales de la década de los años 1990, el gobierno colombiano estableció una serie de acuerdos con el Fondo Monetario Internacional que contemplaban la ejecución de medidas tales como: reforma estructural del sector público; fortalecimiento del sector financiero; reducción del gasto del gobierno central; reforma pensional; protección al libre comercio; extensión del impuesto al valor agregado (IVA); participación del sector privado en servicios de infraestructura; flexibilización laboral; mayores condiciones legales para la inversión extranjera en explotación petrolera y minera y privatización de bancos estatales y empresas públicas del sector energético y de telecomunicaciones.",
+    "enunciado": "19. ¿Por qué estas medidas pueden catalogarse como \"neoliberales\"?",
+    "opcion_a": "A. Porque implican un manejo arbitrario de la dinámica económica del país por el gobierno nacional.",
+    "opcion_b": "B. Porque plantean una mayor presencia del Estado en el sector productivo como agente administrador.",
+    "opcion_c": "C. Porque implican la injerencia de instituciones financieras extranjeras en la política económica interna.",
+    "opcion_d": "D. Porque plantean reducir el tamaño del Estado y su participación en la regulación de actividades económicas.",
+    "respuesta_correcta": "D"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nConsidere el siguiente fragmento extraído de un Plan Nacional de Desarrollo de México:\n«La productividad no sólo se incrementa con las grandes reformas estructurales. El proceso de crecimiento del país también se puede y debe impulsar desde los sectores privado, social y desde todos los órdenes de gobierno. En este sentido, esta estrategia plantea que la Administración Pública Federal busque el incremento de la productividad mediante la eliminación de trabas que impiden el funcionamiento adecuado de la economía, promoviendo la creación de empleos, mejorando la regulación y, de manera especial, simplificando la normatividad y trámites gubernamentales».\n\n---Tomado de: Plan nacional de desarrollo 2013-2018, gobierno de los Estados Unidos de México.",
+    "enunciado": "20. ¿Con cuál de los siguientes modelos es afín esta propuesta para mejorar la productividad económica?",
+    "opcion_a": "A. Con el socialismo, porque busca que el Estado tenga un control total de la economía.",
+    "opcion_b": "B. Con la monarquía, porque centraliza las decisiones económicas en el jefe de Estado.",
+    "opcion_c": "C. Con el neoliberalismo, porque restringe el rol del Estado a la protección del mercado.",
+    "opcion_d": "D. Con la democracia, porque invita a todos a tomar parte en las decisiones económicas.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nEn el Plan Nacional de Desarrollo de Colombia de la década de los años 1990, se afirma lo siguiente: «La eficiencia no puede ser antagónica con la equidad. Por tanto, en las determinaciones públicas primarán siempre consideraciones para que el juego del mercado no comprometa la equidad ni restrinja el acceso y la participación equitativa de los más pobres».",
+    "enunciado": "21. ¿Cuál de los siguientes enunciados explica la postura crítica de este fragmento, frente al modelo neoliberal?",
+    "opcion_a": "A. Se reconoce el papel central del Estado en la buena gestión y administración de los recursos públicos.",
+    "opcion_b": "B. Se define el mercado como el principal mecanismo para distribuir eficientemente los beneficios del crecimiento económico.",
+    "opcion_c": "C. Se afirma que, sin la intervención del Estado, no es posible garantizarle buenas condiciones de vida a toda la población.",
+    "opcion_d": "D. Se señala implícitamente que la privatización de las empresas del Estado es un mecanismo eficiente para garantizar la equidad.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nLea detenidamente la siguiente definición de proteccionismo económico:\n«Se puede definir el proteccionismo como el uso de varios mecanismos con el objetivo principal de proteger a las empresas nacionales de la competencia extranjera. El mecanismo más utilizado es el de aplicar un alto nivel de impuestos a la entrada de productos hechos en otros países (estos impuestos se denominan aranceles). (...) Los aranceles son una barrera ya que son costos que tienen que pagar las empresas al comerciar entre países. Estos costos aumentan el precio del producto y, por lo tanto, dificultan su venta».\n\n---Tomado de: Biblioteca Virtual del Banco de la República.",
+    "enunciado": "22. Teniendo en cuenta el fragmento anterior, ¿en cuál de las siguientes condiciones se justificaría el uso del modelo proteccionista en un país?",
+    "opcion_a": "A. Cuando se fabrica tecnología de punta para optimizar la producción de alimentos.",
+    "opcion_b": "B. Cuando tiene suelos desérticos que impiden la producción de alimentos.",
+    "opcion_c": "C. Cuando importa un buen número de alimentos que se producen en su territorio.",
+    "opcion_d": "D. Cuando exporta más alimentos de los que compra en los mercados extranjeros.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nEl Centro Nacional de Memoria Histórica de Colombia define el desplazamiento forzado como un fenómeno masivo, sistemático, de larga duración y vinculado, en gran medida, a las disputas entre actores armados por el control de territorios estratégicos.",
+    "enunciado": "23. Según esta definición, ¿por qué el desplazamiento forzado permite comprender características propias del conflicto armado en Colombia?",
+    "opcion_a": "A. Porque el desplazamiento forzado es un fenómeno social de larga duración que solo se presenta en Colombia.",
+    "opcion_b": "B. Porque el desplazamiento forzado pone en evidencia, indirectamente, los intereses económicos de los actores en conflicto.",
+    "opcion_c": "C. Porque el desplazamiento forzado permite determinar el efecto directo del conflicto armado sobre la población urbana.",
+    "opcion_d": "D. Porque el desplazamiento forzado permite identificar zonas históricamente controladas por un único actor armado.",
+    "respuesta_correcta": "B"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nLea atentamente el siguiente planteamiento:\n«El actual conflicto armado que enluta a vastas regiones y amplios sectores de la población colombiana, afecta de manera directa o indirecta a toda la nación (...) somos conscientes de la nefasta influencia totalizadora de este flagelo sobre los diversos estamentos de la vida nacional. Toda guerra de hecho compromete a la población civil, destruye la economía de las regiones y subvierte los valores sociales. La guerra que desató la subversión y que nos ha obligado a responder, no es una guerra de posiciones con distintivos convencionales y combatientes identificables, como en los enfrentamientos bélicos regulares. Es una guerra irregular, en la cual la guerrilla se camufla dentro de la población civil».\n\n---Tomado de discursos históricos sobre el conflicto.",
+    "enunciado": "24. Probablemente, ¿quién elaboró este planteamiento?",
+    "opcion_a": "A. Un empresario, porque señala las consecuencias indirectas del conflicto sobre la economía del país.",
+    "opcion_b": "B. Un congresista, porque señala las consecuencias del conflicto armado y la necesidad de crear un marco jurídico para la paz.",
+    "opcion_c": "C. Un investigador, porque se muestra externo al conflicto y califica la confrontación como de carácter irregular y poco convencional.",
+    "opcion_d": "D. Un paramilitar, porque afirma que fueron las acciones de la guerrilla las que obligaron a su organización a involucrarse en el conflicto.",
+    "respuesta_correcta": "D"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nLea la siguiente lista de problemas en el sector rural:\n1. Escasez de recursos naturales no renovables.\n2. Pertenencia a partidos políticos contrarios.\n3. Crecimiento demográfico de la población rural.\n4. Distribución desigual de la propiedad de la tierra.",
+    "enunciado": "25. ¿Cuáles de esos problemas son causas del conflicto agrario en Colombia?",
+    "opcion_a": "A. 1 y 3.",
+    "opcion_b": "B. 1 y 4.",
+    "opcion_c": "C. 2 y 4.",
+    "opcion_d": "D. 1 y 2.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nLa acción de tutela es un mecanismo que busca la protección inmediata de los derechos fundamentales de los ciudadanos ante vulneraciones o amenazas inminentes.",
+    "enunciado": "26. ¿En cuál de las siguientes situaciones, se puede presentar una acción de tutela de manera legítima?",
+    "opcion_a": "A. Cuando se vulnera el derecho a la salud, porque está en riesgo la vida de la persona.",
+    "opcion_b": "B. Cuando alguien es expulsado de una agremiación, a pesar de estar al día en sus pagos.",
+    "opcion_c": "C. Cuando se busca proteger un derecho colectivo de constituir juntas de acción comunal.",
+    "opcion_d": "D. Cuando se legisla sobre el derecho a la vida y el acceso a un trabajo digno para las personas.",
+    "respuesta_correcta": "A"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nEn las principales ciudades del mundo moderno está produciéndose un paulatino abandono de las zonas residenciales del centro urbano, al tiempo que las zonas periféricas tienden a un mayor poblamiento. Estas migraciones las realizan personas o familias que tienen ingresos medios y altos.",
+    "enunciado": "27. ¿Cuál es probablemente la principal causa de este fenómeno?",
+    "opcion_a": "A. El creciente desarrollo de la industria en el centro de las ciudades.",
+    "opcion_b": "B. La búsqueda de mejor calidad de vida en barrios tranquilos.",
+    "opcion_c": "C. La escasa oferta de servicios en los barrios del centro de la ciudad.",
+    "opcion_d": "D. La creciente oferta de vivienda barata en las afueras de la ciudad.",
+    "respuesta_correcta": "B"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nEn Colombia, la discriminación de personas con orientación sexual diferente a la heterosexual, es decir, lesbianas, homosexuales, bisexuales y personas transgénero, ha llevado a procesos de movilización y acciones afirmativas de estas comunidades por la defensa de sus derechos.",
+    "enunciado": "28. ¿Por qué estas movilizaciones y acciones que visibilizan a personas con orientación sexual diferente, son fundamentales en el desarrollo de la igualdad y del respeto por la diferencia?",
+    "opcion_a": "A. Porque exigen al gobierno proyectos pedagógicos para la salud sexual.",
+    "opcion_b": "B. Porque denuncian la explotación laboral y las condiciones de marginación espacial de estas personas.",
+    "opcion_c": "C. Porque promulgan y reivindican los derechos y se denuncia la exclusión.",
+    "opcion_d": "D. Porque sensibilizan a la gente sobre la importancia de reconocer la diversidad de creencias religiosas.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nLa Revolución Industrial se debió, entre otras causas, a la invención de la máquina de vapor y la concentración del capital, que permitió adquirir máquinas para producir en masa. Esta revolución produjo cambios en la población, se pasó de la explotación de la tierra a la producción de bienes, del telar familiar a la gran fábrica y de la manufactura a la producción tecnificada.",
+    "enunciado": "29. De acuerdo con lo anterior, ¿cuál de las siguientes afirmaciones es una consecuencia de la revolución industrial?",
+    "opcion_a": "A. El traslado del campo a la ciudad y el surgimiento del proletariado urbano.",
+    "opcion_b": "B. El crecimiento de la población rural sobre la urbana.",
+    "opcion_c": "C. El nacimiento de una élite propietaria de la tierra.",
+    "opcion_d": "D. El desarrollo de un modelo económico para la protección del proletariado.",
+    "respuesta_correcta": "A"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nSe dice que una Constitución es la ley de leyes, la fuente de toda la jurisprudencia en un Estado de derecho. Por esta razón, cada una de las normas que se expidan debe ajustarse a los principios y mandatos constitucionales.",
+    "enunciado": "30. De acuerdo con lo anterior, ¿cuál es la principal utilidad de una Constitución?",
+    "opcion_a": "A. Impartir justicia y orientar las acciones del Poder Ejecutivo en un Estado social de derecho como el colombiano.",
+    "opcion_b": "B. Facilitar la labor de los jueces, al asumir la tarea de impartir justicia, de manera imparcial y oportuna.",
+    "opcion_c": "C. Garantizar la paz y la prosperidad de las naciones, al expresar los acuerdos y los compromisos de cada ciudadano con la sociedad.",
+    "opcion_d": "D. Establecer un orden jurídico y un marco normativo que delimita el poder del Estado y establece qué es legal.",
+    "respuesta_correcta": "D"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nUn estudio reveló que el 30% de las mujeres en Colombia son víctimas de violencia física. A partir de este estudio varias organizaciones feministas solicitaron el endurecimiento de las penas para las personas que ejercían violencia contra las mujeres. Ante esta petición un funcionario del gobierno señaló que el estudio, aunque tenía datos confiables, no consideraba los distintos contextos de estas agresiones y que era muy importante tener en cuenta que algunos hechos violentos podrían estar justificados.",
+    "enunciado": "31. Según la información presentada, ¿cuál de los siguientes hechos podría ser un efecto de la posición del funcionario?",
+    "opcion_a": "A. Que se cuestione la idoneidad de los investigadores que realizaron el estudio.",
+    "opcion_b": "B. Que se generen estrategias más efectivas de prevención de la violencia contra las mujeres.",
+    "opcion_c": "C. Que algunas personas no reconozcan la gravedad de los actos de violencia en contra de las mujeres.",
+    "opcion_d": "D. Que las organizaciones feministas retiren sus peticiones.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nEn una región de Colombia, una organización estatal promueve proyectos de agricultura para la reintegración de campesinos desplazados. Con este objetivo, se propone la utilización de unos terrenos que forman parte de un ecosistema de humedal. Una organización ambientalista rechaza esta decisión porque afectará este ecosistema.",
+    "enunciado": "32. ¿Son semejantes las posiciones de la organización estatal y la organización ambientalista?",
+    "opcion_a": "A. Son semejantes, porque las dos buscan el aprovechamiento económico del humedal para el bienestar de los campesinos.",
+    "opcion_b": "B. Son semejantes, porque las dos buscan defender a toda costa las riquezas naturales de la región.",
+    "opcion_c": "C. Son diferentes, porque una defiende al ecosistema aunque esto signifique no poder dar tierras a los campesinos y la otra quiere ayudarlos, aunque se dañe el ecosistema.",
+    "opcion_d": "D. Son diferentes, porque una busca que los campesinos se asienten y trabajen en otra región y la otra busca que se preserve el ecosistema del humedal.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nLa crisis económica que se desató en 1929, en Estados Unidos, también afectó a los países latinoamericanos al reducirse sus exportaciones y, por consiguiente, sus importaciones. Para contrarrestar el efecto de esta crisis, los estados latinoamericanos adoptaron medidas como la sustitución de importaciones.",
+    "enunciado": "33. ¿En qué consiste esta medida?",
+    "opcion_a": "A. En prohibir el ingreso de toda clase de productos extranjeros.",
+    "opcion_b": "B. En otorgar total libertad de producción, de cambio y de consumo.",
+    "opcion_c": "C. En producir internamente los bienes que tradicionalmente se traían del exterior.",
+    "opcion_d": "D. En dejar actuar libremente las leyes de la oferta y la demanda.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nAlgunas tendencias del liberalismo promueven cobrar más impuestos a la parte de la población que posee más recursos, y menos impuestos a aquellas personas que posean menos.",
+    "enunciado": "34. ¿Cuál de las siguientes situaciones está de acuerdo con lo anterior?",
+    "opcion_a": "A. En el país A, la tasa promedio de impuestos es el 33% del salario de los habitantes.",
+    "opcion_b": "B. En el país B, el gobierno autoriza aumentar el impuesto del IVA.",
+    "opcion_c": "C. En el país C, el gobierno quita los subsidios para los servicios públicos.",
+    "opcion_d": "D. En el país D, el gobierno aumenta los impuestos de patrimonio y renta.",
+    "respuesta_correcta": "D"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nEl socialismo busca la igualdad social, política y económica.",
+    "enunciado": "35. ¿Qué propone el socialismo para alcanzar este propósito?",
+    "opcion_a": "A. Privatizar los medios de producción y lograr desmontar los sindicatos de las empresas transnacionales y multinacionales.",
+    "opcion_b": "B. Impulsar el consumo y la capacidad de endeudamiento de los trabajadores como factores fundamentales para dinamizar la economía.",
+    "opcion_c": "C. Ofrecer bienes y servicios según el esquema de los tratados de libre comercio y la apertura económica de las fronteras nacionales.",
+    "opcion_d": "D. Lograr la tenencia colectiva de los medios de producción y la consolidación del poder político en las clases trabajadoras.",
+    "respuesta_correcta": "D"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nUn programa impulsado por países europeos lleva varios años apoyando a jóvenes bogotanos de estratos 1, 2 y 3 con buen manejo del inglés, para que creen sus propios negocios. Después de 5 años de operación, detectan que el 30% de los negocios son restaurantes de comida internacional, 30% salones de belleza, 20% tiendas de ropa formal, 10% librerías y 10% escuelas de baile. Ante el éxito del proyecto, deciden abrir una convocatoria para replicar el modelo en Riohacha, Leticia, Arauca y Florencia. Basados en la experiencia bogotana, establecieron que en cada ciudad debían apoyarse las mismas tipologías de negocio y en los mismos porcentajes.\n\nAlgunos expertos señalan que la implementación del mismo modelo en estas ciudades puede no funcionar.",
+    "enunciado": "36. ¿Por qué podría fallar la implementación de este modelo en las otras ciudades?",
+    "opcion_a": "A. Porque los jóvenes no están interesados en hacer negocios sino en estudiar.",
+    "opcion_b": "B. Porque no es viable mantener un programa por tan largo tiempo.",
+    "opcion_c": "C. Porque las necesidades de la población, lo que se demanda, pueden ser muy distintas.",
+    "opcion_d": "D. Porque los jóvenes no tienen buen dominio del inglés.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nEl Consejo Académico de un colegio decidió nombrar como representantes al Consejo Estudiantil a los estudiantes con mejor desempeño académico y de convivencia, en lugar de realizar las elecciones ordinarias.",
+    "enunciado": "37. ¿Qué situación genera esta decisión?",
+    "opcion_a": "A. Que se estimule a los estudiantes a estudiar y ser mejores compañeros.",
+    "opcion_b": "B. Que se dificulte la disponibilidad de tiempo para el desarrollo normal de las actividades académicas.",
+    "opcion_c": "C. Que se vulnere el derecho de los estudiantes a tener y utilizar mecanismos de participación.",
+    "opcion_d": "D. Que se promueva en los estudiantes la comprensión de la importancia del Consejo Estudiantil.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nEl gobierno decidió construir una represa que es indispensable para generar electricidad para todo el país. La represa solo puede construirse en un sitio en el que hay un asentamiento indígena. En principio, al hacer las consultas respectivas con esta comunidad, ellos se negaban a la construcción de la represa. Sin embargo, después de un largo proceso de conciliación con la comunidad, se acordó la construcción de la represa y que los indígenas se asentaran en otro territorio.",
+    "enunciado": "38. Según la Constitución Política de Colombia, ¿cómo procedió el gobierno en esta situación?",
+    "opcion_a": "A. Actuó en contra de los derechos de las comunidades indígenas.",
+    "opcion_b": "B. Favoreció a la comunidad indígena en contra del interés general.",
+    "opcion_c": "C. Mostró respeto por la comunidad indígena en función del bien común.",
+    "opcion_d": "D. Debió hacer una consulta popular para resolver este problema.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nUn profesor universitario sostiene que cuando sus estudiantes mujeres responden a una pregunta, se extienden demasiado en la respuesta. Por esa razón, cuando les pregunta a los estudiantes y algunos levantan la mano para responder, hombres y mujeres por igual, el profesor solo les da la palabra a los hombres.",
+    "enunciado": "39. De acuerdo con la Constitución, ¿el profesor está vulnerando algún derecho?",
+    "opcion_a": "A. No, pues el profesor puede hacer esto porque tiene más experiencia que sus estudiantes.",
+    "opcion_b": "B. Sí, ya que con su actuación el profesor está vulnerando el derecho a la igualdad.",
+    "opcion_c": "C. No, pues a pesar de que la actitud del profesor puede ser chocante para algunos, no es discriminatoria.",
+    "opcion_d": "D. Sí, porque el profesor puede justificar lo que hace si puede probar que las mujeres hablan demasiado.",
+    "respuesta_correcta": "B"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nUna compañía petrolera identificó un yacimiento de petróleo en una zona en la que vive una comunidad indígena para la cual extraer el petróleo significa \"robarle la sangre a la madre tierra\", y por ello se opone a la explotación del yacimiento. La compañía invirtió muchos recursos en un proceso de diálogo con los representantes de la comunidad, pero fue imposible llegar a un acuerdo. Ante esto, y después de un análisis detenido de las posiciones, el Estado le negó a la empresa el permiso de explotación.",
+    "enunciado": "40. De acuerdo con la Constitución, ¿cuál es la razón que mejor sustenta la decisión del Estado?",
+    "opcion_a": "A. Garantizar el derecho a la igualdad.",
+    "opcion_b": "B. Garantizar el derecho a la libre asociación.",
+    "opcion_c": "C. Proteger la diversidad étnica y cultural.",
+    "opcion_d": "D. Proteger el medio ambiente.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nEn un periódico de la ciudad han aparecido continuamente titulares como los siguientes: \"El alcalde no es capaz de solucionar el problema de criminalidad en la ciudad\", \"Al alcalde le queda grande erradicar el crimen de la ciudad\" y \"La ciudad y la Alcaldía están sometidas a los criminales\".",
+    "enunciado": "41. Antes de creer que el alcalde está haciendo mal su trabajo en materia de seguridad, ¿qué deberían revisar los ciudadanos principalmente?",
+    "opcion_a": "A. El plan de gobierno para ver si había propuestas en el tema de seguridad.",
+    "opcion_b": "B. Los índices de criminalidad en otras ciudades del país y de los países vecinos.",
+    "opcion_c": "C. Los cambios en los índices de criminalidad desde que el alcalde se posesionó.",
+    "opcion_d": "D. Las declaraciones oficiales del alcalde sobre si lo está haciendo bien o no.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nEl problema del tráfico de drogas ilícitas ha generado que gobernantes, académicos y miembros de la sociedad civil de países productores debatan sobre el asunto con el fin de encontrar soluciones. Algunos proponen que, para defender el bien común, se debe legalizar las drogas.",
+    "enunciado": "42. ¿Cuál de los siguientes es el argumento más afín con la propuesta de legalización?",
+    "opcion_a": "A. Cada persona debe tener la libertad de decidir si consume o no drogas y, por tanto, su comercialización no debería estar bajo ningún control.",
+    "opcion_b": "B. Los países productores no tienen ninguna responsabilidad en el tráfico de drogas; la responsabilidad recae sobre los países consumidores.",
+    "opcion_c": "C. Quienes consumen drogas no deben ser tratados como delincuentes, sino como adictos que necesitan tratamientos médicos.",
+    "opcion_d": "D. En los países productores la prohibición ha generado problemas sociales más graves que aquellos que se querían evitar con esta medida.",
+    "respuesta_correcta": "D"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nLa violencia sexual contra las mujeres es un problema mundial. Hace poco tiempo, el jefe de policía de una ciudad muy importante, en un país desarrollado, declaró al respecto: \"Para evitar estas situaciones, lo mejor sería que las mujeres dejaran de salir con minifaldas o escotes provocadores a la calle. Así evitarían ser víctimas de acoso o violencia sexual\".",
+    "enunciado": "43. ¿Qué intereses está favoreciendo esta declaración?",
+    "opcion_a": "A. Los de las mujeres, porque está aconsejándoles cómo vestir para no ser víctimas.",
+    "opcion_b": "B. Los de los policías, porque su función no es la de manejar casos de acoso.",
+    "opcion_c": "C. Los de los agresores, porque está dándoles una justificación a lo que hacen.",
+    "opcion_d": "D. Los de la ciudad, porque el acoso sexual afecta la percepción de seguridad.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nAnte los crecientes robos a residencias en algunos sectores de estratos altos de una ciudad, el alcalde está considerando autorizar el cerramiento de grandes sectores residenciales que agrupan varios barrios de la ciudad, para que sean vigilados por seguridad privada y para que solo se permita la entrada a los residentes o a personas autorizadas por estos.",
+    "enunciado": "44. A la hora de evaluar la propuesta, ¿qué intereses en conflicto deben ser tenidos en cuenta?",
+    "opcion_a": "A. Los de las empresas de seguridad privada que buscan expandir su negocio, y los de las bandas de ladrones que buscan seguir realizando sus actividades sin obstáculos.",
+    "opcion_b": "B. Los de los residentes que buscan su seguridad, y los de los demás habitantes de la ciudad que dejarían de tener acceso a las vías y otros espacios públicos de los sectores encerrados.",
+    "opcion_c": "C. Los de los residentes que buscan su beneficio particular y los intereses del gobierno local que debe encargarse del bienestar de la comunidad.",
+    "opcion_d": "D. Los de las empresas de seguridad privada que serían contratadas para cuidar los sectores encerrados, y los de la Policía encargada de la seguridad en la ciudad.",
+    "respuesta_correcta": "B"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nLa Corte Constitucional falló a favor de un soldado que había interpuesto una tutela al considerar que la institución militar no le respetaba el derecho a la objeción de conciencia, porque su religión le prohíbe el uso de armas y las prácticas militares. El fundamento del fallo es la defensa de la libertad de conciencia del soldado.",
+    "enunciado": "45. ¿Cuál de las siguientes acciones es coherente con este fallo?",
+    "opcion_a": "A. Ordenarle al Ejército la entrega de la libreta militar al soldado y su inmediata desvinculación de la institución.",
+    "opcion_b": "B. Ordenarle al soldado cumplir su servicio militar obligatorio con todas las responsabilidades asignadas.",
+    "opcion_c": "C. Ordenarle al Ejército que el soldado participe de los entrenamientos y haga solo tareas de oficina.",
+    "opcion_d": "D. Ordenarle al soldado participar únicamente en paradas militares, portando con orgullo la dotación militar.",
+    "respuesta_correcta": "A"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nDurante las épocas de lluvias, en muchas zonas rurales de Colombia se inundan escuelas y se interrumpen los caminos para llegar a estas.",
+    "enunciado": "46. De las siguientes soluciones propuestas por la comunidad, ¿cuál podría evidenciar una vulneración al derecho a la educación?",
+    "opcion_a": "A. Organizar esquemas de transporte para que los estudiantes vayan a clases en escuelas no afectadas por las inundaciones.",
+    "opcion_b": "B. Ajustar el calendario escolar para que no haya clases en las épocas de inundación.",
+    "opcion_c": "C. Dar una parte de las clases a través de la emisora de radio local, para reducir los días en los que tienen que asistir al colegio.",
+    "opcion_d": "D. Asignar a los estudiantes a escuelas no inundadas y reiniciar las clases con los niños que puedan asistir.",
+    "respuesta_correcta": "D"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nPekín y otras partes de China sufren de elevados niveles de contaminación. Debido a la contaminación en Pekín, algunos días las autoridades cancelan las actividades deportivas en el exterior en colegios y guarderías y recomiendan a niños y ancianos que no salgan a la calle. Aunque se han cerrado centenares de fábricas en la capital y en otros puntos del país, la situación no mejora. Los expertos consideran que la única solución es que la segunda economía mundial reduzca de forma paulatina su dependencia de las industrias pesadas y apueste por un modelo de energía mixta. Las industrias pesadas, entre ellas los sectores de la construcción y el manufacturero, aportaron el 46% del Producto Interior Bruto (PIB) en 2012. \"China debería rebajar esta cifra hasta 9 puntos porcentuales entre 2013 y 2030 si quiere cumplir su objetivo de reducción de la contaminación\", señala un experto.\n\n---Adaptado de: www.elpais.com.co",
+    "enunciado": "47. En esta situación, ¿cuáles dimensiones están en conflicto?",
+    "opcion_a": "A. La educativa y la ambiental.",
+    "opcion_b": "B. La cultural y la educativa.",
+    "opcion_c": "C. La económica y la ambiental.",
+    "opcion_d": "D. La cultural y la económica.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Sociales y Ciudadanas",
+    "contexto": "RESPONDE LA PREGUNTA DE ACUERDO CON LA SIGUIENTE INFORMACIÓN\n\nUn estudiante se intoxicó con comida que compró a un vendedor ambulante a la salida del colegio. Por esto, el Consejo Directivo del colegio, con la ayuda de la Policía, logró la expulsión de los vendedores ambulantes del sector.",
+    "enunciado": "48. De los siguientes, ¿cuál sería un efecto de la expulsión de los vendedores?",
+    "opcion_a": "A. El aumento de la inseguridad en las inmediaciones del colegio.",
+    "opcion_b": "B. El aumento de las intoxicaciones alimentarias de los estudiantes en el colegio.",
+    "opcion_c": "C. La disminución del apoyo de la comunidad al Consejo Directivo y a la Policía.",
+    "opcion_d": "D. La disminución de los ingresos de las familias que dependían de esas ventas.",
+    "respuesta_correcta": "D"
+  }
+]
