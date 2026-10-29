@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
     $("btn-finalizar")?.addEventListener("click", confirmarFinalizar);
     $("btn-reiniciar")?.addEventListener("click", reiniciarSimulador);
     $("btn-cerrar-sesion")?.addEventListener("click", cerrarSesion);
+    agregarInterfazRanking();
 
     configurarModoAcceso();
     recuperarSesion();
@@ -1280,4 +1281,206 @@ function normalizarRespuesta(valor) {
     return typeof valor === "string"
         ? valor.trim().toUpperCase().replace(/[^A-D]/g, "")
         : "";
+}
+
+ // =====================================================
+// RANKING DE ESTUDIANTES
+// =====================================================
+
+function agregarInterfazRanking() {
+    const resultados = $("vista-resultados");
+
+    if (!resultados || $("ranking-estudiantes")) return;
+
+    const boton = document.createElement("button");
+    boton.type = "button";
+    boton.id = "btn-ver-ranking";
+    boton.textContent = "🏆 Ver ranking de estudiantes";
+
+    boton.style.cssText = `
+        display: block;
+        width: 100%;
+        margin: 24px 0 12px;
+        padding: 14px;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+    `;
+
+    const panel = document.createElement("section");
+    panel.id = "ranking-estudiantes";
+    panel.hidden = true;
+    panel.setAttribute("aria-live", "polite");
+
+    panel.style.cssText = `
+        margin: 12px 0 24px;
+        padding: 18px;
+        border: 1px solid #d8dee8;
+        border-radius: 14px;
+        background: white;
+        color: #1f2937;
+    `;
+
+    const titulo = document.createElement("h2");
+    titulo.textContent = "🏆 Ranking de estudiantes";
+
+    const mensaje = document.createElement("p");
+    mensaje.id = "ranking-mensaje";
+    mensaje.textContent = "Preparando ranking...";
+
+    const lista = document.createElement("div");
+    lista.id = "ranking-lista";
+
+    panel.append(titulo, mensaje, lista);
+    resultados.append(boton, panel);
+
+    boton.addEventListener("click", async () => {
+        const ocultar = !panel.hidden;
+
+        panel.hidden = ocultar;
+
+        boton.textContent = ocultar
+            ? "🏆 Ver ranking de estudiantes"
+            : "Ocultar ranking";
+
+        if (!ocultar && panel.dataset.cargado !== "true") {
+            await cargarRankingEstudiantes();
+        }
+    });
+}
+
+
+// =====================================================
+// CONSULTAR EL RANKING EN RENDER
+// =====================================================
+
+async function cargarRankingEstudiantes() {
+    const mensaje = $("ranking-mensaje");
+    const lista = $("ranking-lista");
+    const panel = $("ranking-estudiantes");
+
+    if (!mensaje || !lista || !panel) return;
+
+    mensaje.textContent = "Cargando ranking...";
+    lista.replaceChildren();
+
+    try {
+        const respuesta = await fetch(
+            `${API_URL}/ranking?limite=50`
+        );
+
+        if (!respuesta.ok) {
+            throw new Error(
+                await obtenerMensajeError(
+                    respuesta,
+                    "No se pudo cargar el ranking."
+                )
+            );
+        }
+
+        const estudiantes = await respuesta.json();
+
+        if (!Array.isArray(estudiantes) || estudiantes.length === 0) {
+            mensaje.textContent =
+                "Todavía no hay resultados registrados para mostrar.";
+
+            panel.dataset.cargado = "true";
+            return;
+        }
+
+        mensaje.textContent =
+            `Se muestran ${estudiantes.length} estudiantes.`;
+
+        estudiantes.forEach((estudiante, indice) => {
+            const fila = document.createElement("article");
+
+            fila.style.cssText = `
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 12px;
+                flex-wrap: wrap;
+                padding: 14px 0;
+                border-bottom: 1px solid #e5e7eb;
+            `;
+
+            const identidad = document.createElement("div");
+            identidad.style.flex = "1";
+
+            const posicion = Number(estudiante.posicion) || indice + 1;
+
+            const medallas = {
+                1: "🥇",
+                2: "🥈",
+                3: "🥉"
+            };
+
+            const nombre = document.createElement("strong");
+
+            nombre.textContent =
+                `${medallas[posicion] || "#" + posicion} ` +
+                `${estudiante.nombre || "Estudiante"}`;
+
+            nombre.style.display = "block";
+
+            const colegio = document.createElement("small");
+
+            colegio.textContent =
+                estudiante.colegio || "Colegio no registrado";
+
+            colegio.style.cssText = `
+                display: block;
+                opacity: 0.75;
+                margin-top: 4px;
+            `;
+
+            identidad.append(nombre, colegio);
+
+            const puntuacion = document.createElement("div");
+
+            puntuacion.style.cssText = `
+                text-align: right;
+                white-space: nowrap;
+            `;
+
+            const porcentaje = document.createElement("strong");
+
+            const valor = Number(estudiante.porcentaje);
+
+            porcentaje.textContent =
+                `${Number.isFinite(valor) ? valor.toFixed(1) : "0.0"}%`;
+
+            porcentaje.style.display = "block";
+
+            const detalle = document.createElement("small");
+
+            detalle.textContent =
+                `${estudiante.puntaje ?? 0}/` +
+                `${estudiante.total_preguntas ?? 0} aciertos`;
+
+            puntuacion.append(porcentaje, detalle);
+            fila.append(identidad, puntuacion);
+
+            lista.appendChild(fila);
+        });
+
+        panel.dataset.cargado = "true";
+
+    } catch (error) {
+        mensaje.textContent =
+            `No se pudo cargar el ranking: ${error.message}`;
+
+        const reintentar = document.createElement("button");
+
+        reintentar.type = "button";
+        reintentar.textContent = "Intentar de nuevo";
+
+        reintentar.addEventListener("click", () => {
+            cargarRankingEstudiantes();
+        });
+
+        lista.appendChild(reintentar);
+    }
 }
