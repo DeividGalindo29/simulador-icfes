@@ -1,8 +1,7 @@
 
-from typing import Dict
 from datetime import datetime
 
-from fastapi import FastAPI, Depends, HTTPException
+from fastapi import FastAPI, Depends, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from sqlalchemy.orm import Session
@@ -20,6 +19,9 @@ from auth import (
 
 
 app = FastAPI(title="Simulador ICFES API")
+
+
+# ------------------- CONFIGURACIÓN CORS -------------------
 
 app.add_middleware(
     CORSMiddleware,
@@ -60,9 +62,11 @@ def obtener_usuario_actual(
             detail="Token inválido."
         )
 
-    usuario = db.query(models.Usuario).filter(
-        models.Usuario.id == usuario_id
-    ).first()
+    usuario = (
+        db.query(models.Usuario)
+        .filter(models.Usuario.id == usuario_id)
+        .first()
+    )
 
     if not usuario:
         raise HTTPException(
@@ -73,7 +77,7 @@ def obtener_usuario_actual(
     return usuario
 
 
-# ------------------- REGISTRO -------------------
+# ------------------- REGISTRO DE USUARIOS -------------------
 
 @app.post("/usuarios", status_code=201)
 @app.post("/usuarios/", status_code=201)
@@ -83,9 +87,11 @@ def crear_usuario(
 ):
     correo = str(datos.correo).strip().lower()
 
-    existente = db.query(models.Usuario).filter(
-        models.Usuario.correo == correo
-    ).first()
+    existente = (
+        db.query(models.Usuario)
+        .filter(models.Usuario.correo == correo)
+        .first()
+    )
 
     if existente:
         raise HTTPException(
@@ -109,6 +115,7 @@ def crear_usuario(
             respuestas={},
             indice_actual=0,
         )
+
         db.add(progreso)
         db.commit()
         db.refresh(nuevo_usuario)
@@ -141,14 +148,19 @@ def iniciar_sesion(
 ):
     correo = str(datos.correo).strip().lower()
 
-    usuario = db.query(models.Usuario).filter(
-        models.Usuario.correo == correo
-    ).first()
+    usuario = (
+        db.query(models.Usuario)
+        .filter(models.Usuario.correo == correo)
+        .first()
+    )
 
     if (
         not usuario
         or not usuario.password_hash
-        or not verify_password(datos.password, usuario.password_hash)
+        or not verify_password(
+            datos.password,
+            usuario.password_hash
+        )
     ):
         raise HTTPException(
             status_code=401,
@@ -183,21 +195,20 @@ def mi_usuario(
     }
 
 
-# ------------------- PREGUNTAS -------------------
+# ------------------- CONSULTAR PREGUNTAS -------------------
 
 @app.get("/preguntas")
 @app.get("/preguntas/")
 def obtener_preguntas(
-    limit: int = 100,
+    limit: int = Query(default=100, ge=1, le=500),
     db: Session = Depends(get_db)
 ):
-    if limit < 1 or limit > 500:
-        raise HTTPException(
-            status_code=400,
-            detail="El límite debe estar entre 1 y 500."
-        )
-
-    return db.query(models.Pregunta).limit(limit).all()
+    return (
+        db.query(models.Pregunta)
+        .order_by(models.Pregunta.id.asc())
+        .limit(limit)
+        .all()
+    )
 
 
 # ------------------- GUARDAR PROGRESO -------------------
@@ -209,9 +220,13 @@ def guardar_progreso(
     usuario: models.Usuario = Depends(obtener_usuario_actual),
     db: Session = Depends(get_db),
 ):
-    progreso = db.query(models.ProgresoSimulacion).filter(
-        models.ProgresoSimulacion.usuario_id == usuario.id
-    ).first()
+    progreso = (
+        db.query(models.ProgresoSimulacion)
+        .filter(
+            models.ProgresoSimulacion.usuario_id == usuario.id
+        )
+        .first()
+    )
 
     if not progreso:
         progreso = models.ProgresoSimulacion(
@@ -244,9 +259,13 @@ def recuperar_progreso(
     usuario: models.Usuario = Depends(obtener_usuario_actual),
     db: Session = Depends(get_db),
 ):
-    progreso = db.query(models.ProgresoSimulacion).filter(
-        models.ProgresoSimulacion.usuario_id == usuario.id
-    ).first()
+    progreso = (
+        db.query(models.ProgresoSimulacion)
+        .filter(
+            models.ProgresoSimulacion.usuario_id == usuario.id
+        )
+        .first()
+    )
 
     if not progreso:
         return {
@@ -261,7 +280,7 @@ def recuperar_progreso(
     }
 
 
-# ------------------- RESULTADOS -------------------
+# ------------------- GUARDAR RESULTADOS -------------------
 
 @app.post("/resultados")
 @app.post("/resultados/")
@@ -312,9 +331,12 @@ def mis_resultados(
     usuario: models.Usuario = Depends(obtener_usuario_actual),
     db: Session = Depends(get_db),
 ):
-    resultados = db.query(models.Resultado).filter(
-        models.Resultado.usuario_id == usuario.id
-    ).order_by(models.Resultado.fecha.desc()).all()
+    resultados = (
+        db.query(models.Resultado)
+        .filter(models.Resultado.usuario_id == usuario.id)
+        .order_by(models.Resultado.fecha.desc())
+        .all()
+    )
 
     return [
         {
@@ -325,3 +347,83 @@ def mis_resultados(
         }
         for resultado in resultados
     ]
+
+
+# ------------------- RANKING DE ESTUDIANTES -------------------
+
+@app.get("/ranking")
+@app.get("/ranking/")
+def obtener_ranking(
+    limite: int = Query(default=50, ge=1, le=100),
+    db: Session = Depends(get_db),
+):
+    # Consultar resultados que tengan un total válido de preguntas.
+    resultados = (
+        db.query(models.Resultado)
+        .join(
+            models.Usuario,
+            models.Resultado.usuario_id == models.Usuario.id
+        )
+        .filter(models.Resultado.total_preguntas > 0)
+        .order_by(
+            models.Resultado.fecha.asc()
+        )
+        .all()
+    )
+
+    # Guardar solamente el mejor resultado de cada estudiante.
+    mejores_por_estudiante = {}
+
+    for resultado in resultados:
+        usuario = resultado.usuario
+
+        porcentaje = round(
+            resultado.puntaje * 100.0
+            / resultado.total_preguntas,
+            2
+        )
+
+        usuario_id = resultado.usuario_id
+
+        resultado_actual = mejores_por_estudiante.get(usuario_id)
+
+        # Reemplazar el resultado anterior solo si este es mejor.
+        if (
+            resultado_actual is None
+            or porcentaje > resultado_actual["porcentaje"]
+        ):
+            mejores_por_estudiante[usuario_id] = {
+                "nombre": usuario.nombre,
+                "colegio": usuario.colegio or "Colegio no registrado",
+                "puntaje": resultado.puntaje,
+                "total_preguntas": resultado.total_preguntas,
+                "porcentaje": porcentaje,
+                "fecha": resultado.fecha,
+            }
+
+    # Ordenar por porcentaje, después por aciertos y finalmente
+    # por fecha del resultado como criterio de desempate.
+    estudiantes = sorted(
+        mejores_por_estudiante.values(),
+        key=lambda estudiante: (
+            -estudiante["porcentaje"],
+            -estudiante["puntaje"],
+            estudiante["fecha"] or datetime.max,
+        )
+    )
+
+    # Asignar la posición después de ordenar.
+    ranking = []
+
+    for posicion, estudiante in enumerate(estudiantes, start=1):
+        ranking.append({
+            "posicion": posicion,
+            "nombre": estudiante["nombre"],
+            "colegio": estudiante["colegio"],
+            "puntaje": estudiante["puntaje"],
+            "total_preguntas": estudiante["total_preguntas"],
+            "porcentaje": estudiante["porcentaje"],
+            "fecha": estudiante["fecha"],
+        })
+
+    return ranking[:limite]
