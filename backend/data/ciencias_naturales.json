@@ -1,0 +1,212 @@
+[
+  {
+    "materia": "Ciencias Naturales",
+    "contexto": "En un laboratorio escolar se comparan tres muestras de agua. La muestra A contiene sal completamente disuelta; la muestra B contiene arena visible en el fondo; la muestra C contiene agua y aceite en dos capas.",
+    "enunciado": "¿Cuál de las muestras corresponde a una mezcla homogénea?",
+    "opcion_a": "A. La muestra A, porque presenta una sola fase visible.",
+    "opcion_b": "B. La muestra B, porque la arena se deposita en el fondo.",
+    "opcion_c": "C. La muestra C, porque sus componentes se separan.",
+    "opcion_d": "D. Las muestras B y C, porque tienen más de un componente.",
+    "respuesta_correcta": "A"
+  },
+  {
+    "materia": "Ciencias Naturales",
+    "contexto": "En una experiencia, se calienta una sustancia sólida hasta que pasa directamente al estado gaseoso, sin convertirse primero en líquido.",
+    "enunciado": "¿Cómo se llama el cambio de estado descrito?",
+    "opcion_a": "A. Condensación.",
+    "opcion_b": "B. Sublimación.",
+    "opcion_c": "C. Solidificación.",
+    "opcion_d": "D. Fusión.",
+    "respuesta_correcta": "B"
+  },
+  {
+    "materia": "Ciencias Naturales",
+    "contexto": "Un estudiante mezcla hidrógeno y oxígeno para producir agua. La reacción se representa como: 2H₂ + O₂ → 2H₂O.",
+    "enunciado": "Según la ecuación, ¿cuáles son los reactivos?",
+    "opcion_a": "A. El agua únicamente.",
+    "opcion_b": "B. El hidrógeno y el agua.",
+    "opcion_c": "C. El hidrógeno y el oxígeno.",
+    "opcion_d": "D. El oxígeno y el agua.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Ciencias Naturales",
+    "contexto": "Una investigadora quiere comprobar si la temperatura del agua influye en la rapidez con que se disuelve una cantidad fija de azúcar. Usa la misma cantidad de agua y azúcar en varios recipientes.",
+    "enunciado": "¿Qué variable debe cambiar de manera controlada para responder la pregunta de investigación?",
+    "opcion_a": "A. La temperatura del agua.",
+    "opcion_b": "B. La cantidad de azúcar en cada ensayo.",
+    "opcion_c": "C. El volumen del recipiente y la cantidad de agua al mismo tiempo.",
+    "opcion_d": "D. La temperatura y la cantidad de azúcar al mismo tiempo.",
+    "respuesta_correcta": "A"
+  },
+  {
+    "materia": "Ciencias Naturales",
+    "contexto": "Una célula utiliza la información almacenada en el ADN para fabricar proteínas. Durante la transcripción, se produce una molécula de ARN mensajero que lleva esa información hasta los ribosomas.",
+    "enunciado": "¿Qué podría ocurrir si la secuencia del ARN mensajero contiene un error importante?",
+    "opcion_a": "A. La célula dejaría de tener membrana inmediatamente.",
+    "opcion_b": "B. La proteína podría incorporar aminoácidos en un orden incorrecto.",
+    "opcion_c": "C. El ADN se convertiría por completo en proteína.",
+    "opcion_d": "D. Los ribosomas se transformarían en cromosomas.",
+    "respuesta_correcta": "B"
+  },
+  {
+    "materia": "Ciencias Naturales",
+    "contexto": "En una población de insectos, algunos individuos tienen una variación heredable que les permite sobrevivir a un insecticida. Después de varias generaciones de exposición, aumenta la proporción de individuos resistentes.",
+    "enunciado": "¿Cuál explicación describe mejor este cambio en la población?",
+    "opcion_a": "A. Todos los insectos decidieron adaptarse durante su vida.",
+    "opcion_b": "B. El insecticida produjo exactamente la misma mutación en cada insecto.",
+    "opcion_c": "C. Los insectos resistentes sobrevivieron y dejaron más descendientes.",
+    "opcion_d": "D. Los insectos perdieron la capacidad de reproducirse.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Ciencias Naturales",
+    "contexto": "El dengue es transmitido por mosquitos que pueden reproducirse en recipientes con agua estancada. En una comunidad se busca disminuir los criaderos cercanos a las viviendas.",
+    "enunciado": "¿Cuál acción actúa directamente sobre el lugar donde se reproduce el mosquito?",
+    "opcion_a": "A. Eliminar o tapar recipientes que acumulen agua.",
+    "opcion_b": "B. Aumentar el consumo de bebidas azucaradas.",
+    "opcion_c": "C. Encender luces durante toda la noche.",
+    "opcion_d": "D. Aplicar fertilizante a las plantas.",
+    "respuesta_correcta": "A"
+  },
+  {
+    "materia": "Ciencias Naturales",
+    "contexto": "Una estudiante mide la temperatura de una taza de agua caliente y registra 80 °C. La habitación está a 22 °C. Después de un tiempo, el agua se encuentra a 60 °C.",
+    "enunciado": "¿Por qué el agua pierde energía térmica en esta situación?",
+    "opcion_a": "A. Porque el frío de la habitación se transfiere como una sustancia al agua.",
+    "opcion_b": "B. Porque el agua crea energía térmica adicional.",
+    "opcion_c": "C. Porque el agua tiene una temperatura menor que la habitación.",
+    "opcion_d": "D. Porque el calor se transfiere del agua más caliente hacia el entorno más frío.",
+    "respuesta_correcta": "D"
+  },
+  {
+    "materia": "Ciencias Naturales",
+    "contexto": "Un sonido se propaga por el aire y luego por el agua. La frecuencia depende de la fuente que produce la vibración, mientras que la rapidez de propagación depende del medio.",
+    "enunciado": "¿Qué propiedad permite distinguir con mayor claridad la rapidez de propagación del sonido en los dos medios?",
+    "opcion_a": "A. El color de la fuente sonora.",
+    "opcion_b": "B. La velocidad de propagación.",
+    "opcion_c": "C. La masa de la persona que escucha.",
+    "opcion_d": "D. La intensidad de la luz del lugar.",
+    "respuesta_correcta": "B"
+  },
+  {
+    "materia": "Ciencias Naturales",
+    "contexto": "Una planta recibe luz, agua y dióxido de carbono. Mediante la fotosíntesis produce sustancias orgánicas que almacenan energía química.",
+    "enunciado": "¿Por qué la fotosíntesis se considera un proceso de construcción de moléculas?",
+    "opcion_a": "A. Porque transforma glucosa en agua y dióxido de carbono para liberar energía.",
+    "opcion_b": "B. Porque descompone todas las moléculas de la planta en átomos.",
+    "opcion_c": "C. Porque utiliza sustancias simples para formar moléculas orgánicas como la glucosa.",
+    "opcion_d": "D. Porque elimina la necesidad de energía en las células.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Ciencias Naturales",
+    "contexto": "En un ecosistema, las plantas son consumidas por orugas, y las orugas son consumidas por aves insectívoras. Una disminución drástica de las plantas afecta a los demás organismos.",
+    "enunciado": "¿Cuál consecuencia es más probable si las plantas disminuyen durante un periodo prolongado?",
+    "opcion_a": "A. Las orugas podrían disminuir por falta de alimento y, después, también las aves.",
+    "opcion_b": "B. Las aves producirían su propio alimento mediante fotosíntesis.",
+    "opcion_c": "C. Las orugas aumentarían indefinidamente sin recursos.",
+    "opcion_d": "D. El flujo de energía del ecosistema dejaría de depender de los productores.",
+    "respuesta_correcta": "A"
+  },
+  {
+    "materia": "Ciencias Naturales",
+    "contexto": "Un equipo desea determinar si una muestra de agua contiene un contaminante específico. Cuenta con un método de laboratorio que detecta ese contaminante y dispone de muestras de control conocidas.",
+    "enunciado": "¿Qué procedimiento fortalece más la confiabilidad de los resultados?",
+    "opcion_a": "A. Analizar solo una muestra y asumir que representa todos los cuerpos de agua.",
+    "opcion_b": "B. Cambiar el método cada vez que se analiza una muestra.",
+    "opcion_c": "C. Registrar únicamente los resultados que coincidan con la hipótesis.",
+    "opcion_d": "D. Analizar réplicas, incluir controles y comparar los resultados obtenidos.",
+    "respuesta_correcta": "D"
+  },
+  {
+    "materia": "Ciencias Naturales",
+    "contexto": "Una pelota se mueve en línea recta sobre una superficie. Al aumentar la fuerza neta que actúa sobre ella, manteniendo constante su masa, aumenta su aceleración.",
+    "enunciado": "¿Qué relación entre fuerza neta y aceleración concuerda con la segunda ley de Newton?",
+    "opcion_a": "A. La aceleración siempre es cero.",
+    "opcion_b": "B. La aceleración aumenta cuando aumenta la fuerza neta.",
+    "opcion_c": "C. La aceleración disminuye necesariamente cuando aumenta la fuerza neta.",
+    "opcion_d": "D. La masa deja de influir en el movimiento.",
+    "respuesta_correcta": "B"
+  },
+  {
+    "materia": "Ciencias Naturales",
+    "contexto": "Una persona disuelve una cucharada de sal en un vaso de agua y obtiene una solución uniforme. Si se evapora el agua, queda un sólido cristalino.",
+    "enunciado": "¿Qué conclusión explica mejor el resultado?",
+    "opcion_a": "A. La sal se destruyó al disolverse.",
+    "opcion_b": "B. El agua se convirtió químicamente en sal.",
+    "opcion_c": "C. La sal permaneció en la solución y pudo recuperarse al retirar el agua.",
+    "opcion_d": "D. La sal desapareció y se formó una sustancia sin relación con ella.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Ciencias Naturales",
+    "contexto": "En una zona agrícola se aplica fertilizante en exceso. Después de lluvias fuertes, parte del fertilizante llega a una laguna y aumenta el crecimiento de algas.",
+    "enunciado": "¿Qué efecto ambiental puede ocurrir si este crecimiento de algas es excesivo?",
+    "opcion_a": "A. La descomposición de algas puede consumir oxígeno y afectar a los organismos acuáticos.",
+    "opcion_b": "B. El agua necesariamente se vuelve más oxigenada para siempre.",
+    "opcion_c": "C. Desaparecen todos los nutrientes de la laguna de inmediato.",
+    "opcion_d": "D. Los peces dejan de necesitar oxígeno disuelto.",
+    "respuesta_correcta": "A"
+  },
+  {
+    "materia": "Ciencias Naturales",
+    "contexto": "Un médico explica que los antibióticos actúan contra bacterias, pero no son tratamientos eficaces contra los virus que causan enfermedades como la gripe.",
+    "enunciado": "¿Cuál razón sustenta mejor esta diferencia?",
+    "opcion_a": "A. Las bacterias y los virus tienen exactamente la misma estructura.",
+    "opcion_b": "B. Los virus son células más grandes que las bacterias.",
+    "opcion_c": "C. Los antibióticos aumentan directamente la temperatura corporal.",
+    "opcion_d": "D. Los virus y las bacterias presentan estructuras y procesos biológicos diferentes.",
+    "respuesta_correcta": "D"
+  },
+  {
+    "materia": "Ciencias Naturales",
+    "contexto": "Una lámpara conectada a una batería enciende cuando el circuito está cerrado. Al abrir un interruptor, la corriente deja de circular y la lámpara se apaga.",
+    "enunciado": "¿Qué condición permite que la corriente circule por el circuito sencillo?",
+    "opcion_a": "A. Que el cable esté cortado en todos sus tramos.",
+    "opcion_b": "B. Que exista un camino conductor cerrado entre los terminales de la batería.",
+    "opcion_c": "C. Que la batería no esté conectada a ningún componente.",
+    "opcion_d": "D. Que el interruptor permanezca abierto.",
+    "respuesta_correcta": "B"
+  },
+  {
+    "materia": "Ciencias Naturales",
+    "contexto": "Una investigadora compara dos grupos de plantas de la misma especie. Ambos reciben igual cantidad de agua y suelo, pero uno recibe más horas de luz al día.",
+    "enunciado": "Para atribuir una diferencia de crecimiento a la luz, ¿qué debería hacer la investigadora?",
+    "opcion_a": "A. Cambiar simultáneamente el agua, el suelo y la luz.",
+    "opcion_b": "B. Usar plantas de especies distintas en cada grupo.",
+    "opcion_c": "C. Mantener constantes las demás condiciones y repetir las mediciones.",
+    "opcion_d": "D. Medir únicamente la planta más alta de cada grupo.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Ciencias Naturales",
+    "contexto": "El dióxido de carbono atmosférico retiene parte de la energía que la Tierra emite en forma de radiación infrarroja. Las actividades humanas han aumentado su concentración en la atmósfera.",
+    "enunciado": "¿Cuál consecuencia se relaciona con el aumento del efecto invernadero?",
+    "opcion_a": "A. Un aumento de la temperatura media global a largo plazo.",
+    "opcion_b": "B. La desaparición inmediata de la gravedad terrestre.",
+    "opcion_c": "C. La detención de todos los procesos de evaporación.",
+    "opcion_d": "D. La conversión de todo el oxígeno atmosférico en dióxido de carbono.",
+    "respuesta_correcta": "A"
+  },
+  {
+    "materia": "Ciencias Naturales",
+    "contexto": "Un objeto tiene una masa de 200 gramos y ocupa un volumen de 50 centímetros cúbicos. La densidad se calcula dividiendo la masa entre el volumen.",
+    "enunciado": "¿Cuál es la densidad del objeto?",
+    "opcion_a": "A. 0,25 g/cm³.",
+    "opcion_b": "B. 2 g/cm³.",
+    "opcion_c": "C. 4 g/cm³.",
+    "opcion_d": "D. 10 g/cm³.",
+    "respuesta_correcta": "C"
+  },
+  {
+    "materia": "Ciencias Naturales",
+    "contexto": "En una población de bacterias, un antibiótico elimina a la mayoría de los individuos sensibles. Algunas bacterias con resistencia heredable sobreviven y se reproducen.",
+    "enunciado": "¿Cuál afirmación interpreta correctamente el proceso?",
+    "opcion_a": "A. El antibiótico enseña intencionalmente a todas las bacterias a resistir.",
+    "opcion_b": "B. La resistencia puede aumentar en la población porque sobreviven y se reproducen las bacterias resistentes.",
+    "opcion_c": "C. La resistencia nunca puede heredarse.",
+    "opcion_d": "D. Todas las bacterias mueren siempre al primer contacto con un antibiótico.",
+    "respuesta_correcta": "B"
+  }
+]

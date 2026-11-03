@@ -26,6 +26,15 @@ document.addEventListener("DOMContentLoaded", () => {
     $("btn-ver-lectura")?.addEventListener("click", volverALectura);
     $("btn-anterior")?.addEventListener("click", anteriorPregunta);
     $("btn-siguiente")?.addEventListener("click", siguientePregunta);
+    $("btn-iniciar-portada")?.addEventListener("click", () => {
+    $("portada-inicio").style.display = "none";
+
+    const vistaAcceso = $("vista-registro");
+
+    if (vistaAcceso) {
+        vistaAcceso.style.display = "block";
+    }
+});
     $("btn-finalizar")?.addEventListener("click", confirmarFinalizar);
     $("btn-reiniciar")?.addEventListener("click", reiniciarSimulador);
     $("btn-cerrar-sesion")?.addEventListener("click", cerrarSesion);
@@ -1482,5 +1491,124 @@ async function cargarRankingEstudiantes() {
         });
 
         lista.appendChild(reintentar);
+    }
+}
+
+/* ==========================================
+   CRONÓMETRO DE SESIÓN: 2 HORAS
+========================================== */
+
+const DURACION_PRUEBA_MS = 2 * 60 * 60 * 1000;
+const CLAVE_INICIO_PRUEBA = "simulador_icfes_inicio_prueba_v1";
+
+let intervaloCronometro = null;
+let vencimientoEnProceso = false;
+
+function obtenerClaveCronometro() {
+    const idUsuario = usuarioActual?.id;
+
+    return idUsuario
+        ? `${CLAVE_INICIO_PRUEBA}_${idUsuario}`
+        : null;
+}
+
+function iniciarCronometroPrueba() {
+    const clave = obtenerClaveCronometro();
+    const contenedor = $("cronometro-contenedor");
+
+    if (!clave || !contenedor) return;
+
+    let vencimiento = Number(localStorage.getItem(clave));
+
+    if (!vencimiento) {
+        vencimiento = Date.now() + DURACION_PRUEBA_MS;
+        localStorage.setItem(clave, String(vencimiento));
+    }
+
+    contenedor.hidden = false;
+
+    if (intervaloCronometro) {
+        clearInterval(intervaloCronometro);
+    }
+
+    actualizarCronometro();
+
+    intervaloCronometro = setInterval(
+        actualizarCronometro,
+        1000
+    );
+}
+
+function actualizarCronometro() {
+    const clave = obtenerClaveCronometro();
+    const pantalla = $("cronometro");
+    const contenedor = $("cronometro-contenedor");
+
+    if (!clave || !pantalla || !contenedor) return;
+
+    const vencimiento = Number(localStorage.getItem(clave));
+
+    if (!vencimiento) return;
+
+    const restante = Math.max(0, vencimiento - Date.now());
+
+    const horas = Math.floor(restante / 3600000);
+    const minutos = Math.floor((restante % 3600000) / 60000);
+    const segundos = Math.floor((restante % 60000) / 1000);
+
+    pantalla.textContent = [
+        horas,
+        minutos,
+        segundos
+    ].map(n => String(n).padStart(2, "0")).join(":");
+
+    contenedor.classList.toggle("urgente", restante <= 5 * 60 * 1000);
+
+    if (restante <= 0 && !vencimientoEnProceso) {
+        vencerTiempoPrueba();
+    }
+}
+
+function vencerTiempoPrueba() {
+    if (vencimientoEnProceso) return;
+
+    vencimientoEnProceso = true;
+
+    if (intervaloCronometro) {
+        clearInterval(intervaloCronometro);
+        intervaloCronometro = null;
+    }
+
+    alert(
+        "Se cumplieron las 2 horas de la prueba. " +
+        "El tiempo ha terminado y debes finalizar el intento."
+    );
+
+    /*
+     * Utiliza el botón de finalización existente.
+     * Si tu aplicación pide confirmación, deberás confirmarla.
+     */
+    const botonFinalizar = $("btn-finalizar");
+
+    if (botonFinalizar && !botonFinalizar.disabled) {
+        botonFinalizar.click();
+    } else {
+        alert(
+            "No se encontró el botón para finalizar. " +
+            "Revisa la integración de la función de cierre."
+        );
+    }
+}
+
+function detenerCronometroPrueba() {
+    if (intervaloCronometro) {
+        clearInterval(intervaloCronometro);
+        intervaloCronometro = null;
+    }
+
+    const contenedor = $("cronometro-contenedor");
+
+    if (contenedor) {
+        contenedor.hidden = true;
     }
 }
